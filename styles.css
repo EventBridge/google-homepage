@@ -2,6 +2,40 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 0.5em 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.right-align {
+    float: right;
+}
+
+.button {
+    background-color: blue;
+    border-radius: 5%;
+}
+
+.button a {
+    color: white;
+}
+
 .main_logo {
     display: block;
     margin-left: auto;
