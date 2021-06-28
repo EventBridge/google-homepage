@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin-top: 8%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -16,11 +24,20 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #575757;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 5px;
 }
 
 .right-align {
@@ -43,17 +60,32 @@ a:hover {
     width: 40%;
     height: 50px;
     border-style: solid;
-    border-color: gray;
+    border-color: #ebebeb;
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .search-bar:hover {
     box-shadow: 0 0 3px gray;
 }
 
+.search-buttons {
+    text-align: center;
+    margin: 30px;
+}
+
+.search-buttons a {
+    background-color: #ebebeb;
+    margin: auto 5px auto 5px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+}
+
 .main_logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
